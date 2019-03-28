@@ -32,7 +32,7 @@ def remove_tone(pinyin):
 def u_to_v(initial, final):
     true_final = final
     if initial in special_initials and final in special_finals:
-        true_final = final.replace('u', 'ü ')
+        true_final = final.replace('u', 'ü')
     return true_final
 
 
